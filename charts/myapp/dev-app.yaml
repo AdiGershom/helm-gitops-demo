@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/AdiGershom/helm-gitops-demo.git
     targetRevision: dev
-    path: charts/backend
+    path: charts/myapp
     helm:
       valueFiles:
         - values-dev.yaml
